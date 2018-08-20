@@ -11,12 +11,13 @@ There are a number of dependant packages which are installed as part of this rol
 Role Variables
 --------------
 
-LOCAL_RPM_PATH: "/tmp/"
-CHROME_REPO:  "https://dl.google.com/linux/direct/"
-CHROME_DEPS:
-  - redhat-lsb
-  - libXScrnSaver
-CHROME_PACKAGE_NAME: "google-chrome-stable_current_x86_64.rpm"
+
+    LOCAL_RPM_PATH: "/tmp/"
+    CHROME_REPO:  "https://dl.google.com/linux/direct/"
+    CHROME_DEPS:
+      - redhat-lsb
+      - libXScrnSaver
+    CHROME_PACKAGE_NAME: "google-chrome-stable_current_x86_64.rpm"
 
 
 
